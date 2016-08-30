@@ -24,6 +24,11 @@
  * - http://smacss.com/
  */
 
+// Breakpoints
+// -----------
+
+
+// $breakpoint-classes: (small medium large);
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
@@ -34,6 +39,7 @@
 
 // Global Zurb Foundation variable overrides.
 @import "base/init";
+@import "base/settings";
 
 // Comment out this import if you don't want to use normalize.
 @import "../../zurb_foundation/scss/normalize";
@@ -82,13 +88,13 @@
 
 // Import our mixins early so they can be used by other partials.
 // Optional.
-//@import "base/mixins";
+@import "base/mixins";
 
 // Common file is where you place common utility classes to extend or
 // parametrics.
 // Optional.
 // @import "base/common";
-
+@import "fonts/fonts";
 // Fix for some Drupal CSS quirks (Drupalisms).
 @import "base/drupal";
 
@@ -110,7 +116,7 @@
 
 // States
  @import "states/collapse";
- @import "fonts/fonts";
+
 
 
 // Themes

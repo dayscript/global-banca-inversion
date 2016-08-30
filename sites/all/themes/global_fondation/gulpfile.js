@@ -8,7 +8,7 @@ var sassPaths = [
 ];
 
 gulp.task('sass', function() {
-  return gulp.src('scss/zurb_foundation.scss')
+  return gulp.src('scss/*.scss')
     .pipe($.sass({
       includePaths: sassPaths
     })
@@ -28,6 +28,7 @@ gulp.task('copy', function() {
     .pipe($.copy('css', {prefix: 3}));
   gulp.src('bower_components/motion-ui/dist/*.js')
     .pipe($.copy('js', {prefix: 3}));
+
   var activity = "Stylesheets and scripts from /bower_components/foundation-sites/dist and";
   activity += " bower_components/motion-ui/dist copied to /css and /js.";
   gutil.log(activity);
