@@ -6512,6 +6512,12 @@ body, p {
   .section-proyectos .field-name-field-documentos-anexos span.file {
     display: block;
     margin-bottom: 10px; }
+  .section-proyectos .views-label-field-documentos-anexos {
+    font-family: "Montserrat-Regular";
+    text-transform: uppercase;
+    margin-bottom: 24px; }
+  .section-proyectos .cboxElement {
+    margin-bottom: 18px; }
 
 .breadcrumbs {
   background-color: #FFFFFF;
