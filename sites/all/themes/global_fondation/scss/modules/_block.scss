@@ -48,6 +48,24 @@
   ul.button-group {
     display: none;
   }
+  .panel {
+    display: none;
+  }
+  .footer-wrapper {
+    padding: 20px 0;
+
+    color: $white;
+    font-family: "Open Sans";
+    p {
+      font-size: 0.7em;
+    }
+    h2 {
+      text-transform: uppercase;
+      font-family: $font-bold;
+      font-size: 0.8em;
+      color: $white;
+    }
+  }
 }
 
 .intro {

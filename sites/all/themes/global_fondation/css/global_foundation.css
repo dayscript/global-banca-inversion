@@ -6312,6 +6312,19 @@ th.hide-for-touch {
     padding-bottom: 43px; }
   .not-logged-in ul.button-group {
     display: none; }
+  .not-logged-in .panel {
+    display: none; }
+  .not-logged-in .footer-wrapper {
+    padding: 20px 0;
+    color: #FFFFFF;
+    font-family: "Open Sans"; }
+    .not-logged-in .footer-wrapper p {
+      font-size: 0.7em; }
+    .not-logged-in .footer-wrapper h2 {
+      text-transform: uppercase;
+      font-family: "Montserrat-Bold";
+      font-size: 0.8em;
+      color: #FFFFFF; }
 
 .intro h3 {
   text-transform: uppercase;
