@@ -6509,8 +6509,9 @@ body, p {
     color: #666;
     font-size: 1.2em;
     margin: 40px 0; }
-  .section-proyectos p {
-    color: #666; }
+  .section-proyectos .field-name-field-documentos-anexos span.file {
+    display: block;
+    margin-bottom: 10px; }
 
 .breadcrumbs {
   background-color: #FFFFFF;
