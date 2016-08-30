@@ -55,7 +55,7 @@
 // $rem-base: 16px;
 
 // Allows the use of rem-calc() or lower-bound() in your settings
-@import "foundation/functions";
+//@import "foundation/functions";
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
@@ -81,7 +81,7 @@ $include-xl-html-grid-classes: false;
 
 $row-width: rem-calc(1200);
 $total-columns: 12;
-$column-gutter: rem-calc(30);
+$column-gutter: rem-calc(40);
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -387,10 +387,10 @@ $body-font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
 // 04. Breadcrumbs
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-nav-classes: $include-html-classes;
+//$include-html-nav-classes: $include-html-classes;
 
 // We use this to set the background color for the breadcrumb container.
-// $crumb-bg: scale-color($secondary-color, $lightness: 55%);
+//$crumb-bg: scale-color($secondary-color, $lightness: 55%);
 
 // We use these to set the padding around the breadcrumbs.
 // $crumb-padding: rem-calc(9 14 9);
@@ -418,7 +418,7 @@ $body-font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
 // 05. Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-button-classes: $include-html-classes;
+ $include-html-button-classes: $include-html-classes;
 
 // We use these to build padding for buttons.
 // $button-tny: rem-calc(10);
@@ -458,7 +458,7 @@ $body-font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
 // $alert-button-border-color: $alert-button-bg-hover;
 
 // We use this to set the default radius used throughout the core.
-// $button-radius: $global-radius;
+$button-radius: 0px;
 // $button-round: $global-rounded;
 
 // We use this to set default opacity and cursor for disabled buttons.
