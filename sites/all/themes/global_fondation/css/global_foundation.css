@@ -6534,6 +6534,9 @@ body, p {
     margin-bottom: 24px; }
   .section-proyectos .cboxElement {
     margin-bottom: 18px; }
+  .section-proyectos .fila {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 0; }
 
 .breadcrumbs {
   background-color: #FFFFFF;
