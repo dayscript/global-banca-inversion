@@ -6512,6 +6512,8 @@ body, p {
   .section-proyectos .field-name-field-logo {
     float: left;
     margin: 0 14px 10px 0; }
+  .section-proyectos .view-id-pdf_render {
+    margin-bottom: 20px; }
   .section-proyectos .field-name-field-descargables-excel span.file {
     display: block;
     margin-bottom: 12px;
