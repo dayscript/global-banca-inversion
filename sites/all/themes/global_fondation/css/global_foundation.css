@@ -6312,8 +6312,6 @@ th.hide-for-touch {
     padding-bottom: 43px; }
   .not-logged-in ul.button-group {
     display: none; }
-<<<<<<< HEAD
-=======
   .not-logged-in .panel {
     display: none; }
   .not-logged-in .footer-wrapper {
@@ -6327,7 +6325,6 @@ th.hide-for-touch {
       font-family: "Montserrat-Bold";
       font-size: 0.8em;
       color: #FFFFFF; }
->>>>>>> 11c8db14bcb86b8117eef097654566347cd6adb9
 
 .intro h3 {
   text-transform: uppercase;
@@ -6542,3 +6539,6 @@ body, p {
   background-color: #FFFFFF;
   border: none;
   margin: 10px 0; }
+
+viewer-pdf-toolbar {
+  display: none; }
