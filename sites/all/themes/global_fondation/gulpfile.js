@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var $    = require('gulp-load-plugins')();
 var gutil = require('gulp-util');
+var minify   = require('gulp-minify');
 
 var sassPaths = [
   'bower_components/foundation-sites/scss',
@@ -34,7 +35,14 @@ gulp.task('copy', function() {
   gutil.log(activity);
 });
 
-gulp.task('default', ['sass', 'copy'], function() {
+gulp.task('javascript', function() {
+  return gulp.src(["js/_STARTER.js"])
+    .pipe($.concat('app.js'))
+    .pipe(minify({}))
+    .pipe(gulp.dest('js'));
+});
+
+gulp.task('default', ['sass', 'copy', "javascript"], function() {
   gutil.log('watching for .scss file changes in /scss.');
   gulp.watch(['scss/**/*.scss'], ['sass']);
 });
